@@ -53,12 +53,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC5CK5mgeYCYmTT5EKIatZ_ezY8JdHhb1I',
-    appId: '1:855374377717:web:d1e721478de73e7ca58bbc',
-    messagingSenderId: '855374377717',
-    projectId: 'zerbee-privacy',
-    authDomain: 'zerbee-privacy.firebaseapp.com',
-    storageBucket: 'zerbee-privacy.firebasestorage.app',
-    measurementId: 'G-QN820DBEC6',
+      apiKey: "AIzaSyC5CK5mgeYCYmTT5EKIatZ_ezY8JdHhb1I",
+      authDomain: "zerbee-privacy.firebaseapp.com",
+      projectId: "zerbee-privacy",
+      storageBucket: "zerbee-privacy.firebasestorage.app",
+      messagingSenderId: "855374377717",
+      appId: "1:855374377717:web:d1e721478de73e7ca58bbc",
+      measurementId: "G-QN820DBEC6"
   );
 }

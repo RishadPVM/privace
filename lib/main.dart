@@ -1,9 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:privacy_policy_web/firebase_options.dart';
-import 'package:privacy_policy_web/page/about.dart';
-import 'package:privacy_policy_web/page/terms_and_conditions.dart';
-import 'package:privacy_policy_web/page/privacy_policy.dart';
+import 'package:privacy_policy_web/page/aboutApp/about.dart';
+import 'package:privacy_policy_web/page/aboutApp/terms_and_conditions.dart';
+import 'package:privacy_policy_web/page/aboutApp/privacy_policy.dart';
+import 'package:privacy_policy_web/page/deleteRequst/deleteRequst.dart';
 
 
 Future<void> main() async {
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => PrivacyPolicyPage(),
         '/about': (context) => AboutPage(),
         '/terms-and-conditions': (context) => TermsAndConditionsPage(),
+        '/delete-account-request':(context)=> DeleteRequestPage()
       },
     );
   }
